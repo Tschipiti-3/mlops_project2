@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(description='Description of your program')
 parser.add_argument('--lr', type=float, default=0.0001, help='Learning rate')
 parser.add_argument('--adam_epsilon', type=float, default=0.00001, help='Adam epsilon')
 parser.add_argument('--weight_decay', type=float, default=0.00001, help='Weight decay')
-parser.add_argument('--checkpoint_dir', type=str, default='models', help='folder to save checkpoints')
+parser.add_argument('--checkpoint_dir', type=str, default='checkpoints', help='folder to save checkpoints')
 parser.add_argument('--training_runs', type=int, default=1, help='number of training runs')
 
 args = parser.parse_args() 
